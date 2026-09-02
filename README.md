@@ -4,49 +4,36 @@ InnTrack provides a lightweight finance-tracking experience without requiring an
 
 Users can:
 
-•
-Add income and expense transactions.
+•Add income and expense transactions.
 
-•
-Assign each transaction a category and description.
+•Assign each transaction a category and description.
 
-•
-View total balance, total income, and total expenses.
+•View total balance, total income, and total expenses.
 
-•
-Search transaction descriptions.
+•Search transaction descriptions.
 
 •
 Filter transactions by category.
 
-•
-Review transactions in a date-sorted table.
+•Review transactions in a date-sorted table.
 
-•
-Delete transactions from the history.
+•Delete transactions from the history.
 
-•
-View an income-versus-expenses doughnut chart.
+•View an income-versus-expenses doughnut chart.
 
-•
-Keep transactions in the browser using localStorage.
+•Keep transactions in the browser using localStorage.
 
 The main product flow
 
-1.
-The user opens the dashboard and sees the current financial summary.
+1.The user opens the dashboard and sees the current financial summary.
 
-2.
-The user adds an income or expense with an amount, category, and description.
+2.The user adds an income or expense with an amount, category, and description.
 
-3.
-The application validates the entry and stores it in browser storage.
+3.The application validates the entry and stores it in browser storage.
 
-4.
-The KPI cards, transaction table, and chart update from the same transaction state.
+4.The KPI cards, transaction table, and chart update from the same transaction state.
 
-5.
-The user can search, filter, review, or delete transactions without leaving the dashboard.
+5.The user can search, filter, review, or delete transactions without leaving the dashboard.
 
 Technical implementation
 
